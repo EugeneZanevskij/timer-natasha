@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/timer-natasha/static/css/main.2024d405.css",
+    "main.js": "/timer-natasha/static/js/main.7508a4a2.js",
+    "static/media/natasha.PNG": "/timer-natasha/static/media/natasha.380fbdcb633197e99faf.PNG",
+    "index.html": "/timer-natasha/index.html",
+    "main.2024d405.css.map": "/timer-natasha/static/css/main.2024d405.css.map",
+    "main.7508a4a2.js.map": "/timer-natasha/static/js/main.7508a4a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2024d405.css",
+    "static/js/main.7508a4a2.js"
+  ]
+}
