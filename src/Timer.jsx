@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import TimeBlock from './TimeBlock';
 
 const Timer = () => {
   const [eventDate, setEventDate] = useState(null);
@@ -45,9 +46,11 @@ const Timer = () => {
     <>
     <div className="timer-bg"/>
     <div className="timer-container">
-      <p className="time-text">
-        {days} дней, {hours} часов, {minutes} минут и {seconds} секунд))
-      </p>
+    <TimeBlock value={"19.08.23 22:00"} label="Букет)" />
+      <TimeBlock value={days} label="Дней" />
+      <TimeBlock value={hours} label="Часов" />
+      <TimeBlock value={minutes} label="Минут" />
+      <TimeBlock value={seconds} label="Секунд" />
     </div>
     </>
   );
